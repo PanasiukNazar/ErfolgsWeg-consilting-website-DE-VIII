@@ -126,7 +126,7 @@ footer {
 }
 
 #contact .btn-danger:hover {
-    background: #000000;
+    background: #310d3d;
 }
 
 #intro .btn-default:hover {
@@ -160,7 +160,7 @@ footer {
 .sk-rotating-plane {
     width: 50px;
     height: 50px;
-    background-color: #000000;
+    background-color: #310d3d;
     -webkit-animation: sk-rotatePlane 1.2s infinite ease-in-out;
     animation: sk-rotatePlane 1.2s infinite ease-in-out;
 }
@@ -202,7 +202,7 @@ footer {
 -----------------------------------------*/
 .custom-navbar {
     margin-bottom: 0;
-    background-color: #101010;
+    background-color: #310d3d;
 }
 
 .custom-navbar .navbar-brand {
@@ -258,7 +258,7 @@ footer {
         background: 0 0;
     }
     .custom-navbar.top-nav-collapse {
-        background: #101010;
+        background: #310d3d;
         padding: 0;
     }
 }
@@ -300,8 +300,12 @@ footer {
     Detail section              
 -----------------------------------------*/
 #detail {
-    background: #000000;
+    background: #310d3d;
     color: #ffffff;
+}
+
+#detail p {
+    color: #fff;
 }
 
 #detail .fa {
@@ -386,7 +390,7 @@ footer {
     margin-bottom: -1px;
 }
 .nav-tabs > li > a {
-    color: #000000;
+    color: #310d3d;
     font-weight: 600;
     margin-right: 2px;
     line-height: 1.42857143;
@@ -445,7 +449,7 @@ footer {
 
 #register input[type='submit']:hover {
     background: #ffffff;
-    color: #000000;
+    color: #310d3d;
 }
 
 /*---------------------------------------
@@ -572,7 +576,7 @@ footer {
 }
 
 #contact input[type='submit'] {
-    background: #000000;
+    background: #310d3d;
     border-radius: 100px;
     border: none;
     color: #ffffff;
@@ -647,7 +651,7 @@ a {
 
 /* Back top */
 .go-top {
-    background-color: #000000;
+    background-color: #310d3d;
     bottom: 2em;
     right: 2em;
     color: #ffffff;
@@ -769,4 +773,67 @@ a {
     #intro {
         height: 100vh;
     }
+}
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.cookie-wrapper {
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    max-width: 345px;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px 25px 22px;
+    transition: right 0.3s ease;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+.cookie-wrapper .show {
+    right: 20px;
+}
+
+.hidden {
+    display: none;
+}
+header i {
+    color: #310d3d;
+    font-size: 32px;
+}
+header h2 {
+    color: #310d3d;
+    font-weight: 500;
+}
+.data p a {
+    color: #310d3d;
+    text-decoration: none;
+}
+.data p a:hover {
+    text-decoration: underline;
+}
+.buttons {
+    padding: 20px 0px;
+}
+.buttons .cookie-button {
+    border: 2px solid #310d3d;
+    color: #fff;
+    padding: 8px 0;
+    border-radius: 5px;
+    background: #310d3d;
+    cursor: pointer;
+    width: calc(100% / 2 - 10px);
+    transition: all 0.2s ease;
+}
+.buttons #acceptBtn:hover {
+    background-color: #310d3d;
+}
+#declineBtn {
+    background-color: #fff;
+    color: #310d3d;
+    border-color: #310d3d;
+}
+#declineBtn:hover {
+    background-color: #310d3d;
+    color: #fff;
 }
